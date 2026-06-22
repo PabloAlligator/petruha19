@@ -1,0 +1,152 @@
+// ===============================
+// PETRUHA19 CUSTOMS — VARIABLES
+// file: variables.scss
+// ===============================
+
+// Colors
+$color-black: #030303;
+$color-black-deep: #010101;
+$color-dark: #080809;
+$color-dark-soft: #0f0f11;
+$color-card: rgba(10, 10, 11, 0.88);
+
+$color-white: #ffffff;
+$color-text: #f4f0e4;
+$color-text-muted: rgba(244, 240, 228, 0.72);
+$color-text-soft: rgba(244, 240, 228, 0.48);
+
+$color-yellow: #f5c21b;
+$color-yellow-light: #ffd84d;
+$color-yellow-dark: #9b6800;
+
+$color-blue-neon: #2d8cff;
+$color-red: #d92f25;
+$color-green: #45d55a;
+
+$color-border: rgba(255, 255, 255, 0.1);
+$color-border-yellow: rgba(245, 194, 27, 0.45);
+
+// Effects
+$effect-glow-yellow: 0 0 24px rgba(245, 194, 27, 0.42);
+$effect-glow-yellow-strong: 0 0 42px rgba(245, 194, 27, 0.58);
+$effect-glow-blue: 0 0 34px rgba(45, 140, 255, 0.48);
+
+$effect-shadow-dark: 0 24px 80px rgba(0, 0, 0, 0.78);
+$effect-glass: rgba(5, 5, 5, 0.62);
+$effect-blur: blur(16px);
+
+// Base
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: $color-yellow $color-black;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background:
+    radial-gradient(circle at 74% 14%, rgba(45, 140, 255, 0.13), transparent 26%),
+    radial-gradient(circle at 18% 2%, rgba(245, 194, 27, 0.12), transparent 24%),
+    linear-gradient(180deg, #030303 0%, #09090a 48%, #020202 100%);
+  color: $color-text;
+  font-family: "Roboto Condensed", "Arial Narrow", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.45;
+  overflow-x: hidden;
+}
+
+body::selection {
+  background: $color-yellow;
+  color: $color-black;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+img,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+textarea,
+button,
+select {
+  outline: none;
+}
+
+:focus-visible {
+  outline: 1px solid $color-yellow;
+  outline-offset: 4px;
+}
+
+// Yellow scrollbar
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #040404;
+  border-left: 1px solid rgba(245, 194, 27, 0.12);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    180deg,
+    $color-yellow-light 0%,
+    $color-yellow 48%,
+    $color-yellow-dark 100%
+  );
+  border: 2px solid #040404;
+  border-radius: 999px;
+  box-shadow: 0 0 14px rgba(245, 194, 27, 0.45);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    180deg,
+    #ffe37a 0%,
+    $color-yellow-light 42%,
+    $color-yellow 100%
+  );
+}
+
+// Reduced motion
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms;
+    animation-iteration-count: 1;
+    transition-duration: 0.01ms;
+  }
+}

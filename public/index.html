@@ -1,0 +1,1442 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="/site/css/main.min.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__inner">
+        <a class="header__logo" href="/" aria-label="PETRUHA19 на главную">
+          <span>ПЕТРУХА19</span>
+          <img src="/site/img/customs.png" alt="" />
+        </a>
+
+        <nav class="header__nav" aria-label="Основная навигация">
+          <a class="header__nav-link" href="#services">Услуги</a>
+          <a class="header__nav-link" href="#works-preview">Портфолио</a>
+          <a class="header__nav-link" href="#prices">Цены</a>
+          <a class="header__nav-link" href="#about">О нас</a>
+          <a class="header__nav-link" href="#contacts">Контакты</a>
+        </nav>
+
+        <a class="header__phone" href="tel:+79134401919">Позвонить</a>
+
+        <button
+          class="header__burger burger"
+          type="button"
+          aria-label="Открыть меню"
+          aria-expanded="false"
+        >
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+        </button>
+      </div>
+    </header>
+
+    <div class="mobile-menu-overlay"></div>
+
+    <div class="mobile-menu">
+      <div class="mobile-menu__dialog">
+        <div class="mobile-menu__head">
+          <a
+            class="mobile-menu__logo"
+            href="/"
+            aria-label="PETRUHA19 на главную"
+          >
+            <span>ПЕТРУХА19</span>
+            <img src="/site/img/customs.png" alt="" />
+          </a>
+
+          <button
+            class="mobile-menu__close"
+            type="button"
+            aria-label="Закрыть меню"
+          >
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+
+        <nav class="mobile-menu__nav" aria-label="Мобильная навигация">
+          <a class="mobile-menu__link" href="#services">Услуги</a>
+          <a class="mobile-menu__link" href="#works-preview">Портфолио</a>
+          <a class="mobile-menu__link" href="#prices">Цены</a>
+          <a class="mobile-menu__link" href="#about">О нас</a>
+          <a class="mobile-menu__link" href="#contacts">Контакты</a>
+        </nav>
+
+        <div class="mobile-menu__info">
+          <p class="mobile-menu__city">Абакан</p>
+
+          <a class="mobile-menu__phone" href="tel:+79134401919">Позвонить</a>
+
+          <a class="mobile-menu__button" href="#lead">Оставить заявку</a>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <section class="hero js-hero-tilt" aria-labelledby="hero-title">
+        <div class="hero__bg" aria-hidden="true"></div>
+        <div class="hero__overlay" aria-hidden="true"></div>
+        <div class="hero__noise" aria-hidden="true"></div>
+
+        <div class="hero__tag hero__tag--top" aria-hidden="true">
+          <span>Body shop</span>
+          <i></i>
+        </div>
+
+        <aside class="hero__hud" aria-label="Статистика мастерской">
+          <div class="hero__hud-item">
+            <strong>LVL 87</strong>
+          </div>
+
+          <div class="hero__hud-item">
+            <span>Опыт</span>
+            <p>7820 / 10000</p>
+
+            <div class="hero__progress">
+              <i></i>
+            </div>
+          </div>
+
+          <div class="hero__hud-item">
+            <span>Репутация</span>
+            <p class="hero__stars">★★★★★</p>
+          </div>
+
+          <div class="hero__hud-item">
+            <span>Проекты</span>
+            <p>127+</p>
+          </div>
+        </aside>
+
+        <div class="hero__content">
+          <div class="hero__kicker">
+            <span>Los Santos</span>
+            <i></i>
+            <span>AБАКАН</span>
+          </div>
+
+          <span class="hero__title" id="hero-title">
+            ПЕТРУХА19
+            <span>
+              <img src="/site/img/customs.png" alt="" />
+            </span>
+          </span>
+
+          <h1 class="hero__subtitle">Покраска автомобилей в Абакане</h1>
+
+          <p class="hero__text">
+            Полный окрас · Локальный ремонт · Подбор цвета · Восстановление
+            кузова
+          </p>
+
+          <div class="hero__actions">
+            <a class="hero__button hero__button--primary" href="#lead">
+              Записаться
+            </a>
+
+            <a class="hero__button" href="/portfolio"> Смотреть работы </a>
+          </div>
+        </div>
+
+        <div class="hero__system" aria-hidden="true">
+          <span>Body shop system</span>
+          <p><i></i> Online</p>
+        </div>
+
+        <a class="hero__scroll" href="#services" aria-label="Перейти к услугам">
+          <span>Scroll down</span>
+          <i></i>
+        </a>
+      </section>
+
+      <section class="services" id="services" aria-labelledby="services-title">
+        <div class="services__head">
+          <div class="services__title-wrap">
+            <h2 class="services__title" id="services-title">Наши услуги</h2>
+            <span class="services__line" aria-hidden="true"></span>
+          </div>
+
+          <a class="services__link" href="#lead">
+            Смотреть все услуги
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+
+        <div class="services__grid">
+          <article class="services__card services__card--active">
+            <a
+              class="services__card-link"
+              href="#lead"
+              aria-label="Оставить заявку на услугу Полный окрас"
+              data-service="Полный окрас"
+            ></a>
+
+            <div class="services__icon" aria-hidden="true">
+              <img src="/site/img/icons/polniy-okras.png" alt="" />
+            </div>
+
+            <h3 class="services__card-title">Полный окрас</h3>
+
+            <p class="services__card-text">
+              Профессиональная покраска автомобиля целиком
+            </p>
+          </article>
+
+          <article class="services__card">
+            <a
+              class="services__card-link"
+              href="#lead"
+              aria-label="Оставить заявку на услугу Локальный ремонт"
+              data-service="Локальный ремонт"
+            ></a>
+
+            <div class="services__icon" aria-hidden="true">
+              <img src="/site/img/icons/local-kraska.png" alt="" />
+            </div>
+
+            <h3 class="services__card-title">Локальный ремонт</h3>
+
+            <p class="services__card-text">
+              Устранение сколов, царапин и локальных повреждений
+            </p>
+          </article>
+
+          <article class="services__card">
+            <a
+              class="services__card-link"
+              href="#lead"
+              aria-label="Оставить заявку на услугу Подбор цвета"
+              data-service="Подбор цвета"
+            ></a>
+
+            <div class="services__icon" aria-hidden="true">
+              <img src="/site/img/icons/color-podbor.png" alt="" />
+            </div>
+
+            <h3 class="services__card-title">Подбор цвета</h3>
+
+            <p class="services__card-text">
+              Компьютерный подбор любого цвета по коду или образцу
+            </p>
+          </article>
+
+          <article class="services__card">
+            <a
+              class="services__card-link"
+              href="#lead"
+              aria-label="Оставить заявку на услугу Покраска элемента"
+              data-service="Покраска элемента"
+            ></a>
+
+            <div class="services__icon" aria-hidden="true">
+              <img src="/site/img/icons/element-pokras.png" alt="" />
+            </div>
+
+            <h3 class="services__card-title">Покраска элемента</h3>
+
+            <p class="services__card-text">
+              Окраска двери, крыла, капота, бампера или другого элемента
+            </p>
+          </article>
+
+          <article class="services__card">
+            <a
+              class="services__card-link"
+              href="#lead"
+              aria-label="Оставить заявку на услугу Восстановление после ДТП"
+              data-service="Восстановление после ДТП"
+            ></a>
+
+            <div class="services__icon" aria-hidden="true">
+              <img src="/site/img/icons/local-kraska.png" alt="" />
+            </div>
+
+            <h3 class="services__card-title">Восстановление после ДТП</h3>
+
+            <p class="services__card-text">
+              Ремонт кузова любой сложности с последующей окраской
+            </p>
+          </article>
+
+          <article class="services__card">
+            <a
+              class="services__card-link"
+              href="#lead"
+              aria-label="Оставить заявку на услугу Покраска дисков"
+              data-service="Покраска дисков"
+            ></a>
+
+            <div class="services__icon" aria-hidden="true">
+              <img src="/site/img/icons/litie.png" alt="" />
+            </div>
+
+            <h3 class="services__card-title">Покраска дисков</h3>
+
+            <p class="services__card-text">
+              Покраска и реставрация дисков в любой цвет
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- до / после -->
+
+      <section
+        class="compare"
+        aria-label="Сравнение автомобиля до и после восстановления"
+      >
+        <div class="compare__frame js-compare">
+          <div class="compare__media">
+            <img
+              class="compare__image compare__image--before"
+              src="/site/img/main-before.png"
+              alt="Автомобиль до восстановления"
+            />
+
+            <img
+              class="compare__image compare__image--after"
+              src="/site/img/main-after.png"
+              alt="Автомобиль после восстановления"
+            />
+          </div>
+
+          <div class="compare__label compare__label--after">
+            <span>После</span>
+            <p>Restored</p>
+          </div>
+
+          <div class="compare__label compare__label--before">
+            <span>До</span>
+            <p>Damaged</p>
+          </div>
+
+          <div class="compare__info">
+            <div class="compare__info-head">
+              <h3>Результат работы</h3>
+              <p>Кузов восстановлен · Окрас завершён</p>
+            </div>
+
+            <ul>
+              <li>Убраны дефекты</li>
+              <li>Восстановлена геометрия</li>
+              <li>Ровный глубокий цвет</li>
+            </ul>
+          </div>
+
+          <div class="compare__divider" aria-hidden="true">
+            <span></span>
+          </div>
+
+          <button
+            class="compare__handle"
+            type="button"
+            aria-label="Двигать сравнение до и после"
+          >
+            <span></span>
+          </button>
+        </div>
+      </section>
+
+      <!--  как работаем -->
+
+      <!-- как мы работаем -->
+
+      <section class="process" aria-labelledby="process-title">
+        <div class="process__head">
+          <div class="process__title-wrap">
+            <h2 class="process__title" id="process-title">Как мы работаем</h2>
+            <span class="process__line" aria-hidden="true"></span>
+          </div>
+
+          <p class="process__subtitle">4 простых шага к ровному результату</p>
+        </div>
+
+        <div class="process__grid">
+          <article class="process__card">
+            <img
+              class="process__image"
+              src="/site/img/how-work/one.png"
+              alt="Диагностика кузова автомобиля"
+            />
+
+            <div class="process__content">
+              <span class="process__number">01</span>
+              <h3 class="process__card-title">Диагностика</h3>
+              <p class="process__text">
+                Проверяем состояние кузова и выявляем все дефекты
+              </p>
+            </div>
+          </article>
+
+          <article class="process__card">
+            <img
+              class="process__image"
+              src="/site/img/how-work/two.png"
+              alt="Подготовка автомобиля к покраске"
+            />
+
+            <div class="process__content">
+              <span class="process__number">02</span>
+              <h3 class="process__card-title">Подготовка</h3>
+              <p class="process__text">
+                Шлифовка, выравнивание поверхности и грунтовка
+              </p>
+            </div>
+          </article>
+
+          <article class="process__card">
+            <img
+              class="process__image"
+              src="/site/img/how-work/three.png"
+              alt="Покраска автомобиля в камере"
+            />
+
+            <div class="process__content">
+              <span class="process__number">03</span>
+              <h3 class="process__card-title">Покрасочная</h3>
+              <p class="process__text">
+                Наносим материалы и выдерживаем технологию окраса
+              </p>
+            </div>
+          </article>
+
+          <article class="process__card">
+            <img
+              class="process__image"
+              src="/site/img/how-work/four.png"
+              alt="Контроль качества после покраски"
+            />
+
+            <div class="process__content">
+              <span class="process__number">04</span>
+              <h3 class="process__card-title">Контроль и выдача</h3>
+              <p class="process__text">
+                Проверяем цвет, покрытие и итоговый внешний вид
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- работы -->
+
+      <section class="works-preview" aria-labelledby="works-preview-title">
+        <div class="works-preview__frame">
+          <div
+            class="works-preview__hud works-preview__hud--top"
+            aria-hidden="true"
+          >
+            <span>PETRUHA19 WORKS</span>
+            <span>LOS SANTOS, ABAKAN</span>
+            <span>P19-WORKS v2.4.7</span>
+          </div>
+
+          <div class="works-preview__head">
+            <div class="works-preview__title-wrap">
+              <span class="works-preview__kicker">Наши работы</span>
+              <h2 class="works-preview__title" id="works-preview-title">
+                Машины из бокса
+              </h2>
+
+              <div class="works-preview__rating" aria-hidden="true">
+                <span>★</span>
+                <span>★</span>
+                <span>★</span>
+                <span>★</span>
+                <span>★</span>
+              </div>
+            </div>
+
+            <p class="works-preview__text">
+              Каждый автомобиль — отдельная история. Смотрите работы и
+              оценивайте результат до/после.
+            </p>
+
+            <a class="works-preview__link" href="/portfolio"
+              >Смотреть все работы</a
+            >
+          </div>
+
+          <div class="works-preview__slider">
+            <button
+              class="works-preview__control works-preview__control--prev"
+              type="button"
+              aria-label="Предыдущая работа"
+            >
+              ‹
+            </button>
+
+            <div class="swiper works-preview__swiper js-works-swiper">
+              <div class="swiper-wrapper works-preview__track">
+                <div class="swiper-slide works-preview__slide">
+                  <article class="works-preview__card">
+                    <a
+                      class="works-preview__card-link"
+                      href="/work"
+                      aria-label="Смотреть работу Toyota Camry"
+                    ></a>
+
+                    <div class="works-preview__media">
+                      <img
+                        class="works-preview__image works-preview__image--after"
+                        src="/site/img/main-after.png"
+                        alt="Toyota Camry после окраса"
+                      />
+
+                      <img
+                        class="works-preview__image works-preview__image--before"
+                        src="/site/img/main-before.png"
+                        alt="Toyota Camry до окраса"
+                      />
+
+                      <span
+                        class="works-preview__scan"
+                        aria-hidden="true"
+                      ></span>
+                    </div>
+
+                    <div class="works-preview__labels">
+                      <span>Полный окрас</span>
+                      <i>'20</i>
+                    </div>
+
+                    <div class="works-preview__before-after">
+                      <span
+                        class="works-preview__state works-preview__state--after"
+                        >После</span
+                      >
+                      <span
+                        class="works-preview__state works-preview__state--before"
+                        >До</span
+                      >
+                    </div>
+
+                    <div class="works-preview__card-body">
+                      <h3 class="works-preview__card-title">Toyota Camry</h3>
+                      <p class="works-preview__card-text">
+                        Полный окрас кузова в чёрный металлик
+                      </p>
+
+                      <div class="works-preview__meta">
+                        <span>5 дней</span>
+                        <span>Абакан</span>
+                      </div>
+                    </div>
+
+                    <span class="works-preview__arrow" aria-hidden="true"
+                      >→</span
+                    >
+                  </article>
+                </div>
+
+                <div class="swiper-slide works-preview__slide">
+                  <article class="works-preview__card">
+                    <a
+                      class="works-preview__card-link"
+                      href="/work"
+                      aria-label="Смотреть работу Kia Rio"
+                    ></a>
+
+                    <div class="works-preview__media">
+                      <img
+                        class="works-preview__image works-preview__image--after"
+                        src="/site/img/main-after.png"
+                        alt="Kia Rio после окраса"
+                      />
+
+                      <img
+                        class="works-preview__image works-preview__image--before"
+                        src="/site/img/main-before.png"
+                        alt="Kia Rio до окраса"
+                      />
+
+                      <span
+                        class="works-preview__scan"
+                        aria-hidden="true"
+                      ></span>
+                    </div>
+
+                    <div class="works-preview__labels">
+                      <span>Локальный ремонт</span>
+                      <i>'19</i>
+                    </div>
+
+                    <div class="works-preview__before-after">
+                      <span
+                        class="works-preview__state works-preview__state--after"
+                        >После</span
+                      >
+                      <span
+                        class="works-preview__state works-preview__state--before"
+                        >До</span
+                      >
+                    </div>
+
+                    <div class="works-preview__card-body">
+                      <h3 class="works-preview__card-title">Kia Rio</h3>
+                      <p class="works-preview__card-text">
+                        Ремонт и покраска заднего крыла и бампера
+                      </p>
+
+                      <div class="works-preview__meta">
+                        <span>2 дня</span>
+                        <span>Абакан</span>
+                      </div>
+                    </div>
+
+                    <span class="works-preview__arrow" aria-hidden="true"
+                      >→</span
+                    >
+                  </article>
+                </div>
+
+                <div class="swiper-slide works-preview__slide">
+                  <article class="works-preview__card">
+                    <a
+                      class="works-preview__card-link"
+                      href="/work"
+                      aria-label="Смотреть работу BMW 3 Series"
+                    ></a>
+
+                    <div class="works-preview__media">
+                      <img
+                        class="works-preview__image works-preview__image--after"
+                        src="/site/img/main-after.png"
+                        alt="BMW 3 Series после окраса"
+                      />
+
+                      <img
+                        class="works-preview__image works-preview__image--before"
+                        src="/site/img/main-before.png"
+                        alt="BMW 3 Series до окраса"
+                      />
+
+                      <span
+                        class="works-preview__scan"
+                        aria-hidden="true"
+                      ></span>
+                    </div>
+
+                    <div class="works-preview__labels">
+                      <span>Покраска элемента</span>
+                      <i>'18</i>
+                    </div>
+
+                    <div class="works-preview__before-after">
+                      <span
+                        class="works-preview__state works-preview__state--after"
+                        >После</span
+                      >
+                      <span
+                        class="works-preview__state works-preview__state--before"
+                        >До</span
+                      >
+                    </div>
+
+                    <div class="works-preview__card-body">
+                      <h3 class="works-preview__card-title">BMW 3 Series</h3>
+                      <p class="works-preview__card-text">
+                        Покраска переднего крыла и бампера
+                      </p>
+
+                      <div class="works-preview__meta">
+                        <span>1 день</span>
+                        <span>Абакан</span>
+                      </div>
+                    </div>
+
+                    <span class="works-preview__arrow" aria-hidden="true"
+                      >→</span
+                    >
+                  </article>
+                </div>
+
+                <div class="swiper-slide works-preview__slide">
+                  <article class="works-preview__card">
+                    <a
+                      class="works-preview__card-link"
+                      href="/work"
+                      aria-label="Смотреть работу Mazda 6"
+                    ></a>
+
+                    <div class="works-preview__media">
+                      <img
+                        class="works-preview__image works-preview__image--after"
+                        src="/site/img/main-after.png"
+                        alt="Mazda 6 после окраса"
+                      />
+
+                      <img
+                        class="works-preview__image works-preview__image--before"
+                        src="/site/img/main-before.png"
+                        alt="Mazda 6 до окраса"
+                      />
+
+                      <span
+                        class="works-preview__scan"
+                        aria-hidden="true"
+                      ></span>
+                    </div>
+
+                    <div class="works-preview__labels">
+                      <span>Подбор цвета</span>
+                      <i>'21</i>
+                    </div>
+
+                    <div class="works-preview__before-after">
+                      <span
+                        class="works-preview__state works-preview__state--after"
+                        >После</span
+                      >
+                      <span
+                        class="works-preview__state works-preview__state--before"
+                        >До</span
+                      >
+                    </div>
+
+                    <div class="works-preview__card-body">
+                      <h3 class="works-preview__card-title">Mazda 6</h3>
+                      <p class="works-preview__card-text">
+                        Подбор цвета и локальная покраска двери
+                      </p>
+
+                      <div class="works-preview__meta">
+                        <span>2 дня</span>
+                        <span>Абакан</span>
+                      </div>
+                    </div>
+
+                    <span class="works-preview__arrow" aria-hidden="true"
+                      >→</span
+                    >
+                  </article>
+                </div>
+
+                <div class="swiper-slide works-preview__slide">
+                  <article class="works-preview__card">
+                    <a
+                      class="works-preview__card-link"
+                      href="/work"
+                      aria-label="Смотреть работу Hyundai Solaris"
+                    ></a>
+
+                    <div class="works-preview__media">
+                      <img
+                        class="works-preview__image works-preview__image--after"
+                        src="/site/img/main-after.png"
+                        alt="Hyundai Solaris после окраса"
+                      />
+
+                      <img
+                        class="works-preview__image works-preview__image--before"
+                        src="/site/img/main-before.png"
+                        alt="Hyundai Solaris до окраса"
+                      />
+
+                      <span
+                        class="works-preview__scan"
+                        aria-hidden="true"
+                      ></span>
+                    </div>
+
+                    <div class="works-preview__labels">
+                      <span>После ДТП</span>
+                      <i>'22</i>
+                    </div>
+
+                    <div class="works-preview__before-after">
+                      <span
+                        class="works-preview__state works-preview__state--after"
+                        >После</span
+                      >
+                      <span
+                        class="works-preview__state works-preview__state--before"
+                        >До</span
+                      >
+                    </div>
+
+                    <div class="works-preview__card-body">
+                      <h3 class="works-preview__card-title">Hyundai Solaris</h3>
+                      <p class="works-preview__card-text">
+                        Восстановление задней части после ДТП
+                      </p>
+
+                      <div class="works-preview__meta">
+                        <span>6 дней</span>
+                        <span>Абакан</span>
+                      </div>
+                    </div>
+
+                    <span class="works-preview__arrow" aria-hidden="true"
+                      >→</span
+                    >
+                  </article>
+                </div>
+
+                <div class="swiper-slide works-preview__slide">
+                  <article class="works-preview__card">
+                    <a
+                      class="works-preview__card-link"
+                      href="/work"
+                      aria-label="Смотреть работу Lada Niva"
+                    ></a>
+
+                    <div class="works-preview__media">
+                      <img
+                        class="works-preview__image works-preview__image--after"
+                        src="/site/img/main-after.png"
+                        alt="Lada Niva после окраса"
+                      />
+
+                      <img
+                        class="works-preview__image works-preview__image--before"
+                        src="/site/img/main-before.png"
+                        alt="Lada Niva до окраса"
+                      />
+
+                      <span
+                        class="works-preview__scan"
+                        aria-hidden="true"
+                      ></span>
+                    </div>
+
+                    <div class="works-preview__labels">
+                      <span>Восстановление кузова</span>
+                      <i>'23</i>
+                    </div>
+
+                    <div class="works-preview__before-after">
+                      <span
+                        class="works-preview__state works-preview__state--after"
+                        >После</span
+                      >
+                      <span
+                        class="works-preview__state works-preview__state--before"
+                        >До</span
+                      >
+                    </div>
+
+                    <div class="works-preview__card-body">
+                      <h3 class="works-preview__card-title">Lada Niva</h3>
+                      <p class="works-preview__card-text">
+                        Кузовной ремонт и окраска элементов после повреждений
+                      </p>
+
+                      <div class="works-preview__meta">
+                        <span>4 дня</span>
+                        <span>Абакан</span>
+                      </div>
+                    </div>
+
+                    <span class="works-preview__arrow" aria-hidden="true"
+                      >→</span
+                    >
+                  </article>
+                </div>
+
+                <div class="swiper-slide works-preview__slide">
+                  <article class="works-preview__card">
+                    <a
+                      class="works-preview__card-link"
+                      href="/work"
+                      aria-label="Смотреть работу Toyota Mark II"
+                    ></a>
+
+                    <div class="works-preview__media">
+                      <img
+                        class="works-preview__image works-preview__image--after"
+                        src="/site/img/main-after.png"
+                        alt="Toyota Mark II после окраса"
+                      />
+
+                      <img
+                        class="works-preview__image works-preview__image--before"
+                        src="/site/img/main-before.png"
+                        alt="Toyota Mark II до окраса"
+                      />
+
+                      <span
+                        class="works-preview__scan"
+                        aria-hidden="true"
+                      ></span>
+                    </div>
+
+                    <div class="works-preview__labels">
+                      <span>Полный окрас</span>
+                      <i>'24</i>
+                    </div>
+
+                    <div class="works-preview__before-after">
+                      <span
+                        class="works-preview__state works-preview__state--after"
+                        >После</span
+                      >
+                      <span
+                        class="works-preview__state works-preview__state--before"
+                        >До</span
+                      >
+                    </div>
+
+                    <div class="works-preview__card-body">
+                      <h3 class="works-preview__card-title">Toyota Mark II</h3>
+                      <p class="works-preview__card-text">
+                        Подготовка кузова и окраска с глубоким глянцем
+                      </p>
+
+                      <div class="works-preview__meta">
+                        <span>7 дней</span>
+                        <span>Абакан</span>
+                      </div>
+                    </div>
+
+                    <span class="works-preview__arrow" aria-hidden="true"
+                      >→</span
+                    >
+                  </article>
+                </div>
+
+                <div class="swiper-slide works-preview__slide">
+                  <article class="works-preview__card">
+                    <a
+                      class="works-preview__card-link"
+                      href="/work"
+                      aria-label="Смотреть работу Honda Accord"
+                    ></a>
+
+                    <div class="works-preview__media">
+                      <img
+                        class="works-preview__image works-preview__image--after"
+                        src="/site/img/main-after.png"
+                        alt="Honda Accord после окраса"
+                      />
+
+                      <img
+                        class="works-preview__image works-preview__image--before"
+                        src="/site/img/main-before.png"
+                        alt="Honda Accord до окраса"
+                      />
+
+                      <span
+                        class="works-preview__scan"
+                        aria-hidden="true"
+                      ></span>
+                    </div>
+
+                    <div class="works-preview__labels">
+                      <span>Локальный ремонт</span>
+                      <i>'22</i>
+                    </div>
+
+                    <div class="works-preview__before-after">
+                      <span
+                        class="works-preview__state works-preview__state--after"
+                        >После</span
+                      >
+                      <span
+                        class="works-preview__state works-preview__state--before"
+                        >До</span
+                      >
+                    </div>
+
+                    <div class="works-preview__card-body">
+                      <h3 class="works-preview__card-title">Honda Accord</h3>
+                      <p class="works-preview__card-text">
+                        Восстановление двери и точное попадание в цвет
+                      </p>
+
+                      <div class="works-preview__meta">
+                        <span>2 дня</span>
+                        <span>Абакан</span>
+                      </div>
+                    </div>
+
+                    <span class="works-preview__arrow" aria-hidden="true"
+                      >→</span
+                    >
+                  </article>
+                </div>
+
+                <div class="swiper-slide works-preview__slide">
+                  <article class="works-preview__card">
+                    <a
+                      class="works-preview__card-link"
+                      href="/work"
+                      aria-label="Смотреть работу Subaru Forester"
+                    ></a>
+
+                    <div class="works-preview__media">
+                      <img
+                        class="works-preview__image works-preview__image--after"
+                        src="/site/img/main-after.png"
+                        alt="Subaru Forester после окраса"
+                      />
+
+                      <img
+                        class="works-preview__image works-preview__image--before"
+                        src="/site/img/main-before.png"
+                        alt="Subaru Forester до окраса"
+                      />
+
+                      <span
+                        class="works-preview__scan"
+                        aria-hidden="true"
+                      ></span>
+                    </div>
+
+                    <div class="works-preview__labels">
+                      <span>После ДТП</span>
+                      <i>'21</i>
+                    </div>
+
+                    <div class="works-preview__before-after">
+                      <span
+                        class="works-preview__state works-preview__state--after"
+                        >После</span
+                      >
+                      <span
+                        class="works-preview__state works-preview__state--before"
+                        >До</span
+                      >
+                    </div>
+
+                    <div class="works-preview__card-body">
+                      <h3 class="works-preview__card-title">Subaru Forester</h3>
+                      <p class="works-preview__card-text">
+                        Ремонт повреждённого крыла с последующей окраской
+                      </p>
+
+                      <div class="works-preview__meta">
+                        <span>3 дня</span>
+                        <span>Абакан</span>
+                      </div>
+                    </div>
+
+                    <span class="works-preview__arrow" aria-hidden="true"
+                      >→</span
+                    >
+                  </article>
+                </div>
+
+                <div class="swiper-slide works-preview__slide">
+                  <article class="works-preview__card">
+                    <a
+                      class="works-preview__card-link"
+                      href="/work"
+                      aria-label="Смотреть работу Nissan X-Trail"
+                    ></a>
+
+                    <div class="works-preview__media">
+                      <img
+                        class="works-preview__image works-preview__image--after"
+                        src="/site/img/main-after.png"
+                        alt="Nissan X-Trail после окраса"
+                      />
+
+                      <img
+                        class="works-preview__image works-preview__image--before"
+                        src="/site/img/main-before.png"
+                        alt="Nissan X-Trail до окраса"
+                      />
+
+                      <span
+                        class="works-preview__scan"
+                        aria-hidden="true"
+                      ></span>
+                    </div>
+
+                    <div class="works-preview__labels">
+                      <span>Покраска элемента</span>
+                      <i>'20</i>
+                    </div>
+
+                    <div class="works-preview__before-after">
+                      <span
+                        class="works-preview__state works-preview__state--after"
+                        >После</span
+                      >
+                      <span
+                        class="works-preview__state works-preview__state--before"
+                        >До</span
+                      >
+                    </div>
+
+                    <div class="works-preview__card-body">
+                      <h3 class="works-preview__card-title">Nissan X-Trail</h3>
+                      <p class="works-preview__card-text">
+                        Окраска капота и восстановление лакокрасочного покрытия
+                      </p>
+
+                      <div class="works-preview__meta">
+                        <span>2 дня</span>
+                        <span>Абакан</span>
+                      </div>
+                    </div>
+
+                    <span class="works-preview__arrow" aria-hidden="true"
+                      >→</span
+                    >
+                  </article>
+                </div>
+              </div>
+            </div>
+
+            <button
+              class="works-preview__control works-preview__control--next"
+              type="button"
+              aria-label="Следующая работа"
+            >
+              ›
+            </button>
+          </div>
+
+          <div
+            class="works-preview__hud works-preview__hud--bottom"
+            aria-hidden="true"
+          >
+            <span>System online</span>
+            <span>Coords: X:1357.42 Y:884.21 Z:0.00</span>
+            <span>Status: all systems nominal</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- цвета -->
+
+      <section class="paint-demo" aria-labelledby="paint-demo-title">
+        <div class="paint-demo__frame">
+          <div class="paint-demo__panel">
+            <span class="paint-demo__kicker">ПЕТРУХА19 COLORS</span>
+
+            <h2 class="paint-demo__title" id="paint-demo-title">
+              Пример покраски
+            </h2>
+
+            <p class="paint-demo__subtitle">
+              Выбери цвет и посмотри, как автомобиль будет выглядеть после
+              окраса
+            </p>
+
+            <div class="paint-demo__colors" aria-label="Выбор цвета автомобиля">
+              <button
+                class="paint-demo__color is-active"
+                type="button"
+                data-car="/site/img/color-demo/car-yellow.webp"
+                data-name="Жёлтый PETRUHA19"
+                aria-label="Жёлтый цвет"
+                style="--color: #f5c21b"
+              ></button>
+
+              <button
+                class="paint-demo__color"
+                type="button"
+                data-car="/site/img/color-demo/car-white.webp"
+                data-name="Белый"
+                aria-label="Белый цвет"
+                style="--color: #f4f0e4"
+              ></button>
+
+              <button
+                class="paint-demo__color"
+                type="button"
+                data-car="/site/img/color-demo/car-black.webp"
+                data-name="Чёрный"
+                aria-label="Чёрный цвет"
+                style="--color: #050505"
+              ></button>
+
+              <button
+                class="paint-demo__color"
+                type="button"
+                data-car="/site/img/color-demo/car-grey.webp"
+                data-name="Серый металлик"
+                aria-label="Серый цвет"
+                style="--color: #777a7d"
+              ></button>
+
+              <button
+                class="paint-demo__color"
+                type="button"
+                data-car="/site/img/color-demo/car-blue.webp"
+                data-name="Синий"
+                aria-label="Синий цвет"
+                style="--color: #1d63d8"
+              ></button>
+
+              <button
+                class="paint-demo__color"
+                type="button"
+                data-car="/site/img/color-demo/car-red.webp"
+                data-name="Красный"
+                aria-label="Красный цвет"
+                style="--color: #d92f25"
+              ></button>
+
+              <button
+                class="paint-demo__color"
+                type="button"
+                data-car="/site/img/color-demo/car-orange.webp"
+                data-name="Оранжевый"
+                aria-label="Оранжевый цвет"
+                style="--color: #ff7a16"
+              ></button>
+
+              <button
+                class="paint-demo__color"
+                type="button"
+                data-car="/site/img/color-demo/car-purple.webp"
+                data-name="Фиолетовый"
+                aria-label="Фиолетовый цвет"
+                style="--color: #7b2ca8"
+              ></button>
+
+              <button
+                class="paint-demo__color"
+                type="button"
+                data-car="/site/img/color-demo/car-green.webp"
+                data-name="Зелёный"
+                aria-label="Зелёный цвет"
+                style="--color: #1f8f42"
+              ></button>
+            </div>
+
+            <div class="paint-demo__selected">
+              <span>Выбран цвет</span>
+              <strong class="paint-demo__selected-name"
+                >Жёлтый ПЕТРУХA19</strong
+              >
+            </div>
+
+            <a class="paint-demo__button" href="#lead"> Покрасить </a>
+          </div>
+
+          <div class="paint-demo__stage">
+            <img
+              class="paint-demo__bg"
+              src="/site/img/color-demo/bg.webp"
+              alt=""
+              aria-hidden="true"
+            />
+
+            <img
+              class="paint-demo__car"
+              src="/site/img/color-demo/car-yellow.webp"
+              alt="Автомобиль в выбранном цвете"
+            />
+
+            <div
+              class="paint-demo__hud paint-demo__hud--top"
+              aria-hidden="true"
+            >
+              <span>COLOR SYSTEM ONLINE</span>
+              <span>P19 CUSTOM GARAGE</span>
+            </div>
+
+            <div
+              class="paint-demo__hud paint-demo__hud--bottom"
+              aria-hidden="true"
+            >
+              <span>ДЕМО ОКРАС</span>
+              <span>AБАКАН / ПЕТРУХА19</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- форма -->
+
+      <section class="contact-lead" id="contact">
+        <div class="contact-lead__head">
+          <div class="contact-lead__title-wrap">
+            <span class="contact-lead__line"></span>
+            <h2 class="contact-lead__title">Заявка на ремонт</h2>
+          </div>
+
+          <p class="contact-lead__subtitle">
+            Оставьте контакты — свяжемся, уточним повреждения и подскажем по
+            стоимости.
+          </p>
+        </div>
+
+        <div class="contact-lead__grid">
+          <div class="contact-lead__map">
+            <iframe
+              src="https://yandex.ru/map-widget/v1/?um=constructor%3Af7075bcdcfb146604b324cf6e575f4bc76238639e2204e18d14d211f81b35594&amp;source=constructor"
+              width="638"
+              height="463"
+              frameborder="0"
+            ></iframe>
+          </div>
+
+          <div class="contact-lead__panel">
+            <span class="contact-lead__badge">Петруха19</span>
+
+            <h3 class="contact-lead__panel-title">
+              Рассчитать кузовные работы
+            </h3>
+
+            <form class="request-form" id="leadForm">
+              <input
+                class="request-form__hidden"
+                type="text"
+                name="website"
+                tabindex="-1"
+                autocomplete="off"
+                aria-hidden="true"
+              />
+
+              <div class="request-form__group">
+                <label for="leadName">Ваше имя</label>
+                <input
+                  id="leadName"
+                  name="name"
+                  type="text"
+                  class="request-form__input"
+                  placeholder="Введите ваше имя"
+                  required
+                />
+              </div>
+
+              <div class="request-form__group">
+                <label for="leadPhone">Телефон</label>
+                <input
+                  id="leadPhone"
+                  name="phone"
+                  type="tel"
+                  class="request-form__input"
+                  placeholder="+7 (___) ___-__-__"
+                  inputmode="tel"
+                  required
+                />
+              </div>
+
+              <div class="request-form__group">
+                <label for="leadService">Что нужно сделать</label>
+                <select
+                  id="leadService"
+                  name="service"
+                  class="request-form__input request-form__select"
+                  required
+                >
+                  <option value="" selected disabled>Выберите услугу</option>
+                  <option value="Покраска детали">Покраска детали</option>
+                  <option value="Кузовной ремонт">Кузовной ремонт</option>
+                  <option value="Локальная покраска">Локальная покраска</option>
+                  <option value="Полная покраска">Полная покраска</option>
+                  <option value="Расчёт стоимости">Расчёт стоимости</option>
+                  <option value="Другое">Другое</option>
+                </select>
+              </div>
+
+              <div class="request-form__group">
+                <label for="leadCar">Автомобиль</label>
+                <input
+                  id="leadCar"
+                  name="car"
+                  type="text"
+                  class="request-form__input"
+                  placeholder="Например: Toyota Mark II"
+                />
+              </div>
+
+              <div class="request-form__group">
+                <label for="leadMessage">Комментарий</label>
+                <textarea
+                  id="leadMessage"
+                  name="message"
+                  class="request-form__textarea"
+                  rows="5"
+                  placeholder="Кратко опишите задачу: что покрасить, есть ли повреждения"
+                ></textarea>
+              </div>
+
+              <button
+                class="request-form__button"
+                type="submit"
+                id="leadSubmitBtn"
+              >
+                <span class="btn-text">ОТПРАВИТЬ ЗАЯВКУ</span>
+              </button>
+
+              <p class="request-form__policy">
+                Отправляя заявку, вы соглашаетесь с
+                <a
+                  href="/privacy-policy.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  политикой конфиденциальности
+                </a>
+                и даёте согласие на обработку персональных данных.
+              </p>
+
+              <p
+                class="request-form__status request-form__status--success"
+                id="leadSuccessMessage"
+              >
+                Спасибо! Заявка отправлена, мы скоро свяжемся с вами.
+              </p>
+
+              <p
+                class="request-form__status request-form__status--error"
+                id="leadErrorMessage"
+              >
+                Не удалось отправить заявку. Попробуйте ещё раз чуть позже.
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contacts">
+      <div class="footer__inner">
+        <div class="footer__main">
+          <a class="footer__logo" href="/" aria-label="PETRUHA19 на главную">
+            <span>ПЕТРУХА19</span>
+            <img src="/site/img/customs.png" alt="" />
+          </a>
+
+          <p class="footer__text">
+            Покраска автомобилей, локальный ремонт, подбор цвета и
+            восстановление кузова в Абакане.
+          </p>
+        </div>
+
+        <nav class="footer__nav" aria-label="Навигация в подвале">
+          <a href="#services">Услуги</a>
+          <a href="#works-preview">Портфолио</a>
+          <a href="#prices">Цены</a>
+          <a href="#about">О нас</a>
+          <a href="#contacts">Контакты</a>
+        </nav>
+
+        <div class="footer__contacts">
+          <a class="footer__phone" href="tel:+79134401919">Позвонить</a>
+          <a class="footer__button" href="#lead">Оставить заявку</a>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>© 2026 PETRUHA19. Покраска автомобилей в Абакане.</p>
+
+        <a class="footer__policy" href="/privacy-policy.html">
+          Политика конфиденциальности
+        </a>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/site/js/main.js"></script>
+  </body>
+</html>
