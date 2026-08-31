@@ -68,7 +68,7 @@ router.get('/:slug', async (req, res, next) => {
       provider: {
         '@type': 'AutoRepair',
         name: 'PETRUHA19',
-        telephone: '+7 913 440-19-19',
+        telephone: '+7 923 596-95-09',
       },
     }).replace(/</g, '\\u003c');
 
@@ -93,7 +93,7 @@ router.get('/:slug', async (req, res, next) => {
     <script type="application/ld+json">${jsonLd}</script>
   </head>
   <body>
-    <header class="header"><div class="header__inner"><a class="header__logo" href="/" aria-label="PETRUHA19 на главную"><span>ПЕТРУХА19</span><img src="/site/img/customs.png" alt="" /></a><nav class="header__nav" aria-label="Основная навигация"><a class="header__nav-link" href="/#services">Услуги</a><a class="header__nav-link" href="/portfolio">Портфолио</a><a class="header__nav-link" href="/#paint-demo">Цвета</a><a class="header__nav-link" href="/#process">Как работаем</a><a class="header__nav-link" href="/#contacts">Контакты</a></nav><a class="header__phone" href="tel:+79134401919">Позвонить</a></div></header>
+    <header class="header"><div class="header__inner"><a class="header__logo" href="/" aria-label="PETRUHA19 на главную"><span>ПЕТРУХА19</span><img src="/site/img/customs.png" alt="" /></a><nav class="header__nav" aria-label="Основная навигация"><a class="header__nav-link" href="/#services">Услуги</a><a class="header__nav-link" href="/portfolio">Работы</a><a class="header__nav-link" href="/#paint-demo">Цвета</a><a class="header__nav-link" href="/#process">Как работаем</a><a class="header__nav-link" href="/#contacts">Контакты</a></nav><a class="header__phone" href="tel:+79235969509">Позвонить</a></div></header>
     <main class="work-detail">
       <section class="work-detail__hero">
         <a class="work-detail__back" href="/portfolio">← Все работы</a>
@@ -110,7 +110,7 @@ router.get('/:slug', async (req, res, next) => {
       ${renderGallery(gallery, work.title)}
       <section class="work-detail__cta"><div><span>Нужен такой же результат?</span><h2>Рассчитаем кузовные работы</h2></div><a href="/#lead">Оставить заявку</a></section>
     </main>
-    <footer class="portfolio-footer"><a class="header__logo" href="/"><span>ПЕТРУХА19</span><img src="/site/img/customs.png" alt="" /></a><p>Покраска автомобилей и восстановление кузова в Абакане.</p><a href="tel:+79134401919">+7 913 440-19-19</a></footer>
+    <footer class="portfolio-footer"><a class="header__logo" href="/"><span>ПЕТРУХА19</span><img src="/site/img/customs.png" alt="" /></a><p>Покраска автомобилей и восстановление кузова в Абакане. Адрес: ул. Аскизская, 146В.</p><a href="tel:+79235969509">+7 923 596-95-09</a></footer>
   </body>
 </html>`);
   } catch (error) {

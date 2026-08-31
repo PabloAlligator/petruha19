@@ -94,7 +94,7 @@
         provider: {
           '@type': 'AutoRepair',
           name: 'PETRUHA19',
-          telephone: '+7 913 440-19-19',
+          telephone: '+7 923 596-95-09',
         },
       });
     }
