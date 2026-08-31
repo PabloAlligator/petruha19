@@ -401,8 +401,8 @@ const initHeader = () => {
 
       breakpoints: {
         0: {
-          slidesPerView: 1.1,
-          spaceBetween: 14,
+          slidesPerView: 2,
+          spaceBetween: 10,
         },
         560: {
           slidesPerView: 2,

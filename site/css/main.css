@@ -2758,6 +2758,16 @@ body.menu-open {
   overflow: hidden;
   transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
 }
+.works-preview__card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(245, 194, 27, 0.9);
+}
+.works-preview__card:hover .works-preview__scan {
+  transform: translateY(220%);
+}
+.works-preview__card:hover .works-preview__arrow {
+  transform: translateX(10px);
+}
 .works-preview__card::before {
   content: "";
   position: absolute;
@@ -2989,11 +2999,10 @@ body.menu-open {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid rgba(245, 194, 27, 0.72);
-  background: rgba(245, 194, 27, 0.04);
   color: #f5c21b;
-  font-size: 18px;
+  font-size: 21px;
   line-height: 1;
+  transition: transform 0.3s ease;
 }
 .works-preview__control {
   position: absolute;
